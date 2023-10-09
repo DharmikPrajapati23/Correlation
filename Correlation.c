@@ -22,28 +22,25 @@ int main()
     
     printf("Enter Size:");
     scanf("%d",&size);
-    printf("\n1.karl Pearson correlation coefficient\n2.Spearman's rank correlation coefficient\n3.Regression coefficient & correlation coefficient\n->");
+    printf("\n>1.karl Pearson correlation coefficient\n>2.Spearman's rank correlation coefficient\n>3.Regression coefficient & correlation coefficient\nEnter Your Choise-> ");
     scanf("%d",&cho);
     
     switch(cho)
     {
     	case 1:
-    	{
     		karl();
     		break;	
-		}
     		
     	case 2:
-    	{
     		spearman();
     		break;
-		}
     		
     	case 3:
-    	{
     		regression();
     		break;
-		}
+    		
+    	default:
+    		printf("Please Enter Right Choise...");
 	}
 
     return 0;
