@@ -42,8 +42,9 @@ int main()
     	default:
     		printf("Please Enter Right Choise...");
 	}
-
-    return 0;
+	
+	printf("\n\nThis Program was Design By Dharmik Prajapati");
+    	return 0;
 }
 karl()
 {
